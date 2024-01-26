@@ -6,3 +6,5 @@ list=['hrry','yuvraj']
 l1=list[1]
 
 print(l1)
+
+#note= this is list file

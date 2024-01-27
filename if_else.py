@@ -16,3 +16,5 @@ elif n%2 == 0 and n>6 and n<20:
 # fourth condtion
 elif n%2 == 0 and n>=20:
         print(" this is fouth :not Weird")
+
+        #: List is mutable ,we can change init

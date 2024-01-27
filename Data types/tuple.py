@@ -12,4 +12,4 @@ print(s1)
 s2=t[0:4]
 print(s2)
 
-# Note:in tuple single value ends with , then it type tuple
+# Note:in tuple single value ends with , then it shows type 'tuple'

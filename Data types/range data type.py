@@ -50,3 +50,16 @@ for x in r3:
 r4=range(100,20,-5)
 for x in r4:
      print(x)
+
+# range is immutable.but slicing and indexing is applicable for range
+     
+     r=range(10,25)
+     print(r)
+
+     print(r[0])
+
+     print(r[2])
+
+     print(r[-2])
+
+     print(r[-5])

@@ -17,3 +17,22 @@ print(l)
 
 l.remove('bunty')
 print(l)
+
+#:if i want to replace the item by another item in list then i can use following
+
+l[1]=1991
+print(l)
+
+l[-1]="dada"
+print(l)
+
+#: in list we can use slice operater
+
+s1=l[1:3]
+print(s1)
+
+s2=l[1:0]
+print(s2)
+
+s3=l[1:-1]
+print(s3)

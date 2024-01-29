@@ -1,3 +1,5 @@
-r=range(20,2500)
-for x in r:
-    print(x)
+a=3773
+b=9289298
+c=829283929
+d=a+b+c
+print(d)

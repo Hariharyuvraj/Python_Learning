@@ -19,9 +19,3 @@ print('Multiplication of two numbers is',m)
 s=b/a
 print('Division of two numbers is', s)
 
-
-
-a=4343
-b=2224
-c=a+b
-print(c)

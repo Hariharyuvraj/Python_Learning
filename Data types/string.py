@@ -34,3 +34,4 @@ s3=a[:]
 print(s3)
 s4=a[0:-3]
 print(s4)
+

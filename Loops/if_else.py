@@ -1,5 +1,5 @@
 
-
+# prob:01
 n=22
 
 if (n % 2) != 0:
@@ -19,16 +19,17 @@ elif n%2 == 0 and n>=20:
 
         #: List is mutable ,we can change init
 
-# prob: 2
-        username=input('sagar')
-        password=input ('shiv')
+# prob: 02
+        username=input('enter name:')
+        password=input ('enter pass:')
 
         if username =='sagar' and password =='shiv':
                print("valid user")
         else:
                print("not valid user")
 
-
+# prob:03
+               
 a=3
 b=5
 if a>b:
@@ -39,13 +40,22 @@ else:
 a=50
 b=67
 if a<b:
-       print("barobar")
+       print("correct")
 else:
-       print('chuk')
+       print('incorrect')
 
 a=True
 b=False
 if a>b:
-       print('y')
+       print('yes')
 else:
-       print('n')
+       print('no')
+
+
+# prob:04
+       
+name=input('enter name:')
+if name=='yuvraj':
+       print('welcome boss,how may i help you')
+else:
+       print('sorry invalid entry')

@@ -59,3 +59,20 @@ if name=='yuvraj':
        print('welcome boss,how may i help you')
 else:
        print('sorry invalid entry')
+
+
+# prob:05
+## if -elif-else condition:
+       
+brand=('enter your favourate brand:')
+if brand=='beer':
+       print('this is child brand')
+elif brand=='ro':
+       print('this is comman brand')
+elif brand=='rs':
+       print('this is good')
+elif brand=='fo':
+       print('this is very good')
+else:
+       print('other brand are not available')
+

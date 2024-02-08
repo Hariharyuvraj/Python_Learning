@@ -76,3 +76,45 @@ elif brand=='fo':
 else:
        print('other brand are not available')
 
+#prob:06
+## to find the biggest number from two number
+       
+a=int(input('enter the first number:'))
+b=int(input('enter the second number:'))
+if a>b:
+       print('biggest number is',a)
+else:
+       print('biggest number is',b)
+
+## to find the smallest number from two number
+       
+a=int(input('enter the first number:'))
+b=int(input('enter the second number:'))
+if a<b:
+       print('smallest number is',a)
+else:
+       print('smallest number is',b)  
+
+# Prob:07
+n=int(input('enter the number from 0 to 5:'))
+if n==0:
+       print('zero')
+elif n==1:
+       print('one')
+elif n==2:
+       print('two')
+elif n==3:
+       print('three')
+if n==4:
+       print('four')
+else:
+       print('enter the number below the 5')
+
+
+n=input('enter the digit from 0 to 9:')
+list=['zero','one','two','three','four','five','six','seven','eight','nine']
+print(list[n])
+
+
+
+

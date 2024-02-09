@@ -22,3 +22,10 @@ for x in range(21):
  if (x%2):
     print(x)
 
+# To print the sum of the number in given list 
+    
+list=eval(input('enter the list number:'))
+sum=0
+for x in list:
+   sum=sum+x
+   print(sum)

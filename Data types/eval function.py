@@ -9,3 +9,8 @@ print(type(x))
 
 x=eval(input('enter the any type of value:'))
 print(type(x))
+
+x=eval('10+20+30')
+print(x,type(x))
+
+

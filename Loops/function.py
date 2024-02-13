@@ -12,12 +12,12 @@ def welcome(parameter):
 def msg():
     print('welcome students in python learning program')
 
-#e.g
+#e.g To print the particular msg by using the def function
 
 def welcomemsg(name):
     print('welcome students in python learning program specially',name)
 
-# e.g
+# e.g To find the square of number
 def squareit(num):
     sq=num*num
     print('the square of {} is:{}'.format(num,sq))

@@ -17,4 +17,7 @@ def msg():
 def welcomemsg(name):
     print('welcome students in python learning program specially',name)
 
-
+# e.g
+def squareit(num):
+    sq=num*num
+    print('the square of {} is:{}'.format(num,sq))

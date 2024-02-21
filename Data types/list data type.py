@@ -36,3 +36,34 @@ print(s2)
 
 s3=l[1:-1]
 print(s3)
+
+# reverse() and reversed()
+
+l=[1,2,3,4,5,6,7,8,9]
+l.reverse()
+print(l)
+
+l1=[12,34,55,67,8,88]
+l1.reverse()
+print(l1)
+
+l2=['megha','nava','yuvraj','usha','bharat','malan','laxman']
+l2.reverse()
+print(l2)
+
+# now reversed()
+
+l=[1,2,3,4,5,6,7,8,9]
+r=reversed(l)
+l1=list(r)
+print(l1)
+
+l='yuvraj'
+r=reversed(l)
+for x in r:
+    print(x)
+
+l1=['harihar','bharat','yuvraj']
+r=reversed(l1)
+for x in r:
+    print(x)

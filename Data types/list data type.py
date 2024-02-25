@@ -67,3 +67,34 @@ l1=['harihar','bharat','yuvraj']
 r=reversed(l1)
 for x in r:
     print(x)
+
+## 'sort()' funtion using for assending order of number & str alphabetically
+    
+l=[3,5,7,5,7,9,10,0]
+l.sort()
+print(l)
+
+l=['ball','fox','dog','sheep','apple','light']
+l.sort()
+print(l)
+
+# list
+# list.sort()
+l=[1,2,3,4,5,6,7,8,9]
+l.sort()
+
+l=[[1, 2, 3],[4, 5, 6],[7, 8,9]]
+print(l)
+
+print('element in matrix style:')
+for x in l:
+    for y in x:
+        print(y,end=' ')
+    print()
+    
+l=[[1, 2, 3],[4, 5, 6],[7, 8,9]]
+print(l)
+
+print('element in row wise:')
+for x in l:
+    print(x)

@@ -19,5 +19,5 @@ print(d2)
 d3={x:3**x for x in range(1,6)}
 print(d3)
 
-d4={x:10*x for x in range(1,11)}
+d4={x:5**x for x in range(1,11)}
 print(d4)

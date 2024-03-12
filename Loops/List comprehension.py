@@ -49,3 +49,9 @@ for x in s:
 s='i love you anuja'
 s1=s.split()
 print(s1)
+
+l=[x for x in range(1,50) if x%5==0]
+print(l) 
+
+l=[x for x in range(1,101) if x%2==0]
+print(l)

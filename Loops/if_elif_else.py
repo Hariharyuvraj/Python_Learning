@@ -115,6 +115,6 @@ n=input('enter the digit from 0 to 9:')
 list=['zero','one','two','three','four','five','six','seven','eight','nine']
 print(list[n])
 
-
+## there are to many eg. we can consider for practice
 
 
